@@ -11,7 +11,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  uiSource: "src"
+  uiSource: "build-deploy/src"
   uiBuild: "$(uiSource)/build"
     
 
